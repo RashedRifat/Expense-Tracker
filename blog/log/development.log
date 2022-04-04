@@ -1,0 +1,272 @@
+Started GET "/" for 127.0.0.1 at 2022-04-03 22:47:51 -0400
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/rashe/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.2.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/rashe/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.2.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.1ms | Allocations: 634)
+Completed 200 OK in 9ms (Views: 4.4ms | ActiveRecord: 0.0ms | Allocations: 4932)
+
+
+Started GET "/" for 127.0.0.1 at 2022-04-03 22:50:24 -0400
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/rashe/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.2.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/rashe/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.2.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.7ms | Allocations: 527)
+Completed 200 OK in 5ms (Views: 1.8ms | ActiveRecord: 0.0ms | Allocations: 3602)
+
+
+Started GET "/articles" for 127.0.0.1 at 2022-04-03 22:50:28 -0400
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 151)
+  Rendered layout layouts/application.html.erb (Duration: 327.1ms | Allocations: 89972)
+Completed 200 OK in 329ms (Views: 328.0ms | ActiveRecord: 0.0ms | Allocations: 91024)
+
+
+Started GET "/articles" for 127.0.0.1 at 2022-04-03 22:51:21 -0400
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 332)
+  Rendered layout layouts/application.html.erb (Duration: 28.6ms | Allocations: 34747)
+Completed 200 OK in 33ms (Views: 29.9ms | ActiveRecord: 0.0ms | Allocations: 37977)
+
+
+Started GET "/articles" for 127.0.0.1 at 2022-04-03 22:51:31 -0400
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 150)
+  Rendered layout layouts/application.html.erb (Duration: 2.9ms | Allocations: 2813)
+Completed 200 OK in 5ms (Views: 4.9ms | ActiveRecord: 0.0ms | Allocations: 3702)
+
+
+Started GET "/" for 127.0.0.1 at 2022-04-03 22:51:50 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/rashe/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.2.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/rashe/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.2.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.9ms | Allocations: 327)
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.0ms | Allocations: 1137)
+
+
+Started GET "/articles" for 127.0.0.1 at 2022-04-03 22:52:12 -0400
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 144)
+  Rendered layout layouts/application.html.erb (Duration: 7.9ms | Allocations: 2801)
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.0ms | Allocations: 3682)
+
+
+Started GET "/" for 127.0.0.1 at 2022-04-03 22:52:57 -0400
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 26)
+  Rendered layout layouts/application.html.erb (Duration: 6.1ms | Allocations: 13741)
+Completed 200 OK in 8ms (Views: 7.0ms | Allocations: 14379)
+
+
+Started GET "/" for 127.0.0.1 at 2022-04-03 22:53:20 -0400
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 6.6ms | Allocations: 2206)
+Completed 200 OK in 8ms (Views: 7.2ms | Allocations: 2487)
+
+
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (2.1ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateArticles (20220404025542)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE TABLE "articles" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar, "body" text, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20220404025542"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.1ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2022-04-04 02:58:00.937619"], ["updated_at", "2022-04-04 02:58:00.937619"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.5ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Hello Rails"], ["body", "I am on rails!"], ["created_at", "2022-04-04 03:00:11.430592"], ["updated_at", "2022-04-04 03:00:11.430592"]]
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.9ms)[0m  [1m[32mINSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Second Article"], ["body", "I am on Rails!"], ["created_at", "2022-04-04 03:02:27.582257"], ["updated_at", "2022-04-04 03:02:27.582257"]]
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+Started GET "/" for 127.0.0.1 at 2022-04-03 23:06:41 -0400
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:4
+  Rendered articles/index.html.erb within layouts/application (Duration: 14.7ms | Allocations: 10015)
+  Rendered layout layouts/application.html.erb (Duration: 14.8ms | Allocations: 10121)
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.2ms | Allocations: 11809)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `article' for #<ActionView::Base:0x000000000119e0>
+
+            '.freeze;@output_buffer.append=( article.title );@output_buffer.safe_append='
+                                             ^^^^^^^
+Did you mean?  articke
+               @articles):
+    3: <ul>
+    4:     <% @articles.each do |articke| %>
+    5:         <li>
+    6:             <%= article.title %>
+    7:         </li>
+    8:     <% end %>
+    9: </ul>
+  
+app/views/articles/index.html.erb:6
+app/views/articles/index.html.erb:4
+Started GET "/" for 127.0.0.1 at 2022-04-03 23:06:44 -0400
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:4
+  Rendered articles/index.html.erb within layouts/application (Duration: 14.0ms | Allocations: 5278)
+  Rendered layout layouts/application.html.erb (Duration: 14.3ms | Allocations: 5366)
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.2ms | Allocations: 5664)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `article' for #<ActionView::Base:0x00000000011cd8>
+
+            '.freeze;@output_buffer.append=( article.title );@output_buffer.safe_append='
+                                             ^^^^^^^
+Did you mean?  articke
+               @articles):
+    3: <ul>
+    4:     <% @articles.each do |articke| %>
+    5:         <li>
+    6:             <%= article.title %>
+    7:         </li>
+    8:     <% end %>
+    9: </ul>
+  
+app/views/articles/index.html.erb:6
+app/views/articles/index.html.erb:4
+Started GET "/" for 127.0.0.1 at 2022-04-03 23:06:56 -0400
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:4
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 892)
+  Rendered layout layouts/application.html.erb (Duration: 8.9ms | Allocations: 14846)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.1ms | Allocations: 15685)
+
+
+Started GET "/" for 127.0.0.1 at 2022-04-03 23:15:06 -0400
+  
+SyntaxError (/Users/rashe/Documents/GitHub/Expense-Tracker/blog/config/routes.rb:5: syntax error, unexpected string literal, expecting `do' or '{' or '('
+  get "/articles/Lid", to "articles#show"
+                          ^
+):
+  
+config/routes.rb:5: syntax error, unexpected string literal, expecting `do' or '{' or '('
+config/routes.rb:5: syntax error, unexpected string literal, expecting `do' or '{' or '('
+config/routes.rb:5: syntax error, unexpected string literal, expecting `do' or '{' or '('
+Started GET "/" for 127.0.0.1 at 2022-04-03 23:15:24 -0400
+  
+SyntaxError (/Users/rashe/Documents/GitHub/Expense-Tracker/blog/config/routes.rb:5: syntax error, unexpected string literal, expecting `do' or '{' or '('
+  get "/articles/:id", to "articles#show"
+                          ^
+):
+  
+config/routes.rb:5: syntax error, unexpected string literal, expecting `do' or '{' or '('
+config/routes.rb:5: syntax error, unexpected string literal, expecting `do' or '{' or '('
+config/routes.rb:5: syntax error, unexpected string literal, expecting `do' or '{' or '('
+Started GET "/" for 127.0.0.1 at 2022-04-03 23:15:39 -0400
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/views/articles/index.html.erb:4
+  [1m[36mArticle Load (0.0ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:4
+  Rendered articles/index.html.erb within layouts/application (Duration: 6.6ms | Allocations: 7327)
+  Rendered layout layouts/application.html.erb (Duration: 6.7ms | Allocations: 7421)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.2ms | Allocations: 8969)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `artilce' for #<ActionView::Base:0x00000000015fe0>
+
+            <a href="/artickes/'.freeze;@output_buffer.append=( artilce.id);@output_buffer.safe_append='">
+                                                                ^^^^^^^
+Did you mean?  article):
+    3: <ul>
+    4:     <% @articles.each do |article| %>
+    5:         <li>
+    6:             <a href="/artickes/<%= artilce.id%>">
+    7:                 <%= article.title %>
+    8:             </a>
+    9:         </li>
+  
+app/views/articles/index.html.erb:6
+app/views/articles/index.html.erb:4
+Started GET "/" for 127.0.0.1 at 2022-04-03 23:16:08 -0400
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:4
+  Rendered articles/index.html.erb within layouts/application (Duration: 3.1ms | Allocations: 904)
+  Rendered layout layouts/application.html.erb (Duration: 21.1ms | Allocations: 14936)
+Completed 200 OK in 25ms (Views: 23.1ms | ActiveRecord: 0.2ms | Allocations: 15795)
+
+
+Started GET "/articles/1" for 127.0.0.1 at 2022-04-03 23:16:11 -0400
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:7:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (Duration: 7.8ms | Allocations: 7682)
+  Rendered layout layouts/application.html.erb (Duration: 8.0ms | Allocations: 7772)
+Completed 500 Internal Server Error in 24ms (ActiveRecord: 0.4ms | Allocations: 17556)
+
+
+  
+ActionView::Template::Error (undefined method `text' for #<Article id: 1, title: "Hello Rails", body: "I am on rails!", created_at: "2022-04-04 03:00:11.430592000 +0000", updated_at: "2022-04-04 03:00:11.430592000 +0000">):
+    1: <h1> <%= @my_article.title %> </h1>
+    2: <p>Content</p>
+    3: <p><%= @my_article.text %></p>
+  
+app/views/articles/show.html.erb:3
+Started GET "/articles/1" for 127.0.0.1 at 2022-04-03 23:17:23 -0400
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:7:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (Duration: 0.9ms | Allocations: 186)
+  Rendered layout layouts/application.html.erb (Duration: 6.0ms | Allocations: 2870)
+Completed 200 OK in 12ms (Views: 8.4ms | ActiveRecord: 0.2ms | Allocations: 4185)
+
+
+Started GET "/" for 127.0.0.1 at 2022-04-03 23:17:25 -0400
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:4
+  Rendered articles/index.html.erb within layouts/application (Duration: 1.9ms | Allocations: 839)
+  Rendered layout layouts/application.html.erb (Duration: 5.8ms | Allocations: 3051)
+Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 0.2ms | Allocations: 3413)
+
+
