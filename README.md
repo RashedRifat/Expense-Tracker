@@ -4,4 +4,4 @@ This is an expense tracker web application created in collaboration with the Ope
 
 ## Resources 
 
-* [Ruby on Rails Guide](https://guides.rubyonrails.org/getting_started.html)
+* [Ruby on Rails Guide](https://guides.rubyonrails.org/getting_started.html#resourceful-routing)
